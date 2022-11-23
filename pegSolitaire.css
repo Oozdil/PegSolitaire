@@ -1,7 +1,7 @@
 .pin {
     margin: 5px;
-    height: 54px;
-    width: 54px;
+    height: 40px;
+    width: 40px;
     float: left;
     border-radius: 27px;
 
@@ -48,7 +48,7 @@ border: 1px solid rgba(37, 38, 193, 0.3);
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgba(0, 255, 255);
-    max-width: 450px;
+    max-width: 400px;
     min-width: 250px;;
     margin: auto;
     border-radius: 25px;
