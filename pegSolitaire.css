@@ -1,0 +1,131 @@
+.pin {
+    margin: 5px;
+    height: 54px;
+    width: 54px;
+    float: left;
+    border-radius: 27px;
+
+
+}
+
+.pin-full {
+ /*   background-color: red;
+    box-shadow: inset 0 0 10px blue;*/
+    /* From https://css.glass */
+background: rgba(255, 37, 37, .7);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(193, 37, 37, 0.3);
+}
+
+.pin-empty {
+    background-color: transparent;
+    box-shadow: inset 0 0 10px blue;
+}
+.pin-selected {
+    /*
+    background-color: rgb(102, 67, 14);
+    box-shadow: inset 0 0 10px rgb(0, 0, 255);
+    */
+    /* From https://css.glass */
+background: rgba(37, 38, 193, 0.73);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(37, 38, 193, 0.3);
+}
+#gameBoard {
+   /* background-color: yellow;
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+    border: 5px solid black;
+*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 255, 255);
+    max-width: 450px;
+    min-width: 250px;;
+    margin: auto;
+    border-radius: 25px;
+}
+#gameBoard{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #ffffff;
+    box-shadow:
+      2px 2px 0.5em rgba(122, 122, 122, 0.55),
+      inset 1px 1px 0 rgba(255, 255, 255, 0.9),
+      inset -1px -1px 0 rgba(0, 0, 0, 0.34)
+    ;
+    border: 1px solid #dedede;
+    background:
+      -moz-linear-gradient(
+      -72deg,
+      #dedede,
+      #ffffff 16%,
+      #dedede 21%,
+      #ffffff 24%,
+      #454545 27%,
+      #dedede 36%,
+      #ffffff 45%,
+      #ffffff 60%,
+      #dedede 72%,
+      #ffffff 80%,
+      #dedede 84%,
+      #a1a1a1
+    );
+    background:
+    -webkit-linear-gradient(
+      -72deg,
+      #dedede,
+      #ffffff 16%,
+      #dedede 21%,
+      #ffffff 24%,
+      #454545 27%,
+      #dedede 36%,
+      #ffffff 45%,
+      #ffffff 60%,
+      #dedede 72%,
+      #ffffff 80%,
+      #dedede 84%,
+      #a1a1a1
+    );
+    background:
+    -o-linear-gradient(
+      -72deg,
+      #dedede,
+      #ffffff 16%,
+      #dedede 21%,
+      #ffffff 24%,
+      #454545 27%,
+      #dedede 36%,
+      #ffffff 45%,
+      #ffffff 60%,
+      #dedede 72%,
+      #ffffff 80%,
+      #dedede 84%,
+      #a1a1a1
+    );
+    background:
+    linear-gradient(
+      -72deg,
+      #dedede,
+      #ffffff 16%,
+      #dedede 21%,
+      #ffffff 24%,
+      #454545 27%,
+      #dedede 36%,
+      #ffffff 45%,
+      #ffffff 60%,
+      #dedede 72%,
+      #ffffff 80%,
+      #dedede 84%,
+      #a1a1a1
+    );
+  }
